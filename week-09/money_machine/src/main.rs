@@ -148,7 +148,7 @@ fn main() {
     println!("Total weigh of the machine is {} kilos", machine.total_weight());
     println!("Total value of the coins is {}", machine.total_amount());
 
-    // Empty the machine out of coins
+    // Empty the machine
     machine.empty();
     println!("*************************************************");
 
